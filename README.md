@@ -7,5 +7,8 @@ This shell is for demonstration only. It is not intended to be used in productio
 security considerations in mind before it is used.
 
 ### Build Instructions
+#### Using `cmake`:
+`cmake --build build --target smallsh`
+
 #### Using `gcc`:
 `gcc --std=gnu99 -o smallsh main.c parsers.c error_handlers.c signal_handlers.c commands.c`
